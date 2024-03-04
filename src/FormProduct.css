@@ -1,0 +1,38 @@
+.form-horizontal {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Espacio entre cada grupo de campo */
+  }
+  
+  .control-label {
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas de control */
+  }
+  
+  .form-control {
+    width: 100%; /* El ancho del campo de entrada */
+    padding: 8px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Borde redondeado */
+    box-sizing: border-box; /* El tamaño total incluye el borde y el relleno */
+  }
+  
+  .btn-primary {
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+  }
