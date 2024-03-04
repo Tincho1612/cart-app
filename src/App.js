@@ -38,9 +38,14 @@ const deleteItem = (id)=>{
 
   return (
     <div className="container">
-      <FormAddProduct addProduct={addProduct}/>
-      <ProductList  listProduct={products} className="product-list-container" addToCart={addToCart}/>
-      <Cart products={cartProducts} deleteItem={deleteItem}/>
+      <div className="Product-form">
+        <FormAddProduct  addProduct={addProduct}/>
+      </div>
+        <ProductList  listProduct={products} className="product-list-container" addToCart={addToCart}/>
+      <div>
+        <Cart products={cartProducts} deleteItem={deleteItem}/>
+      </div>
+      
     </div>
   );
 }
